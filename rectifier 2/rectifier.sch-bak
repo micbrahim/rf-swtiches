@@ -1,0 +1,312 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:D_Schottky_Small D6
+U 1 1 63E75421
+P 4500 2950
+F 0 "D6" V 4500 3020 50  0000 L CNN
+F 1 "D_Schottky_Small" V 4545 3020 50  0001 L CNN
+F 2 "Diode_SMD:D_0201_0603Metric" V 4500 2950 50  0001 C CNN
+F 3 "~" V 4500 2950 50  0001 C CNN
+	1    4500 2950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Schottky_Small D5
+U 1 1 63E766FA
+P 4500 2750
+F 0 "D5" V 4500 2820 50  0000 L CNN
+F 1 "D_Schottky_Small" V 4545 2820 50  0001 L CNN
+F 2 "Diode_SMD:D_0201_0603Metric" V 4500 2750 50  0001 C CNN
+F 3 "~" V 4500 2750 50  0001 C CNN
+	1    4500 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C7
+U 1 1 63E79551
+P 4800 2750
+F 0 "C7" H 4892 2750 50  0000 L CNN
+F 1 "C_Small" H 4892 2705 50  0001 L CNN
+F 2 "" H 4800 2750 50  0001 C CNN
+F 3 "~" H 4800 2750 50  0001 C CNN
+	1    4800 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Schottky_Small D4
+U 1 1 63E7F875
+P 4500 2550
+F 0 "D4" V 4500 2620 50  0000 L CNN
+F 1 "D_Schottky_Small" V 4545 2620 50  0001 L CNN
+F 2 "Diode_SMD:D_0201_0603Metric" V 4500 2550 50  0001 C CNN
+F 3 "~" V 4500 2550 50  0001 C CNN
+	1    4500 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Schottky_Small D3
+U 1 1 63E7FE49
+P 4500 2350
+F 0 "D3" V 4500 2420 50  0000 L CNN
+F 1 "D_Schottky_Small" V 4545 2420 50  0001 L CNN
+F 2 "Diode_SMD:D_0201_0603Metric" V 4500 2350 50  0001 C CNN
+F 3 "~" V 4500 2350 50  0001 C CNN
+	1    4500 2350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Schottky_Small D2
+U 1 1 63E8030B
+P 4500 2150
+F 0 "D2" V 4500 2220 50  0000 L CNN
+F 1 "D_Schottky_Small" V 4545 2220 50  0001 L CNN
+F 2 "Diode_SMD:D_0201_0603Metric" V 4500 2150 50  0001 C CNN
+F 3 "~" V 4500 2150 50  0001 C CNN
+	1    4500 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Schottky_Small D1
+U 1 1 63E807BE
+P 4500 1950
+F 0 "D1" V 4500 2020 50  0000 L CNN
+F 1 "D_Schottky_Small" V 4545 2020 50  0001 L CNN
+F 2 "Diode_SMD:D_0201_0603Metric" V 4500 1950 50  0001 C CNN
+F 3 "~" V 4500 1950 50  0001 C CNN
+	1    4500 1950
+	0    1    1    0   
+$EndComp
+Connection ~ 4500 2650
+Wire Wire Line
+	4500 2650 4800 2650
+Wire Wire Line
+	4800 2850 4800 3050
+Wire Wire Line
+	4800 3050 4500 3050
+$Comp
+L Device:C_Small C3
+U 1 1 63E853AC
+P 4250 2450
+F 0 "C3" V 4021 2450 50  0000 C CNN
+F 1 "33 pF" V 4112 2450 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0201_0603Metric" H 4250 2450 50  0001 C CNN
+F 3 "~" H 4250 2450 50  0001 C CNN
+	1    4250 2450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C2
+U 1 1 63E85AF1
+P 4250 2050
+F 0 "C2" V 4021 2050 50  0000 C CNN
+F 1 "33 pF" V 4112 2050 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0201_0603Metric" H 4250 2050 50  0001 C CNN
+F 3 "~" H 4250 2050 50  0001 C CNN
+	1    4250 2050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C6
+U 1 1 63E85D7F
+P 4800 2450
+F 0 "C6" H 4892 2450 50  0000 L CNN
+F 1 "C_Small" H 4892 2405 50  0001 L CNN
+F 2 "" H 4800 2450 50  0001 C CNN
+F 3 "~" H 4800 2450 50  0001 C CNN
+	1    4800 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C5
+U 1 1 63E86545
+P 4800 2050
+F 0 "C5" H 4892 2050 50  0000 L CNN
+F 1 "C_Small" H 4892 2005 50  0001 L CNN
+F 2 "" H 4800 2050 50  0001 C CNN
+F 3 "~" H 4800 2050 50  0001 C CNN
+	1    4800 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C4
+U 1 1 63E86F49
+P 4250 2850
+F 0 "C4" V 4021 2850 50  0000 C CNN
+F 1 "33 pF" V 4112 2850 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0201_0603Metric" H 4250 2850 50  0001 C CNN
+F 3 "~" H 4250 2850 50  0001 C CNN
+	1    4250 2850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4350 2850 4500 2850
+Connection ~ 4500 2850
+Wire Wire Line
+	4500 2500 4500 2450
+Connection ~ 4500 2450
+Wire Wire Line
+	4350 2450 4500 2450
+Wire Wire Line
+	4500 2050 4350 2050
+Connection ~ 4500 2050
+Wire Wire Line
+	4800 2150 4800 2250
+Wire Wire Line
+	4800 2550 4800 2650
+Connection ~ 4800 2650
+Wire Wire Line
+	4500 2250 4800 2250
+Connection ~ 4500 2250
+Connection ~ 4800 2250
+Wire Wire Line
+	4800 2250 4800 2350
+Wire Wire Line
+	4500 1850 4800 1850
+Wire Wire Line
+	4800 1850 4800 1950
+Wire Wire Line
+	4150 2050 4050 2050
+Wire Wire Line
+	4050 2050 4050 2450
+Wire Wire Line
+	4050 2450 4150 2450
+Wire Wire Line
+	4050 2450 4050 2850
+Wire Wire Line
+	4050 2850 4150 2850
+Connection ~ 4050 2450
+$Comp
+L Device:L_Small L1
+U 1 1 63E89FA7
+P 3800 2450
+F 0 "L1" V 3985 2450 50  0000 C CNN
+F 1 "L_tune" V 3894 2450 50  0000 C CNN
+F 2 "" H 3800 2450 50  0001 C CNN
+F 3 "~" H 3800 2450 50  0001 C CNN
+	1    3800 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C_Small C1
+U 1 1 63E8B4AA
+P 3550 2600
+F 0 "C1" H 3458 2554 50  0000 R CNN
+F 1 "C_tune" H 3458 2645 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0201_0603Metric" H 3550 2600 50  0001 C CNN
+F 3 "~" H 3550 2600 50  0001 C CNN
+	1    3550 2600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3550 2500 3550 2450
+Wire Wire Line
+	3550 2450 3700 2450
+Wire Wire Line
+	3900 2450 4050 2450
+$Comp
+L Connector:Conn_Coaxial J1
+U 1 1 63E8D3B7
+P 3050 2650
+F 0 "J1" V 2932 2750 50  0000 L CNN
+F 1 "SMA" V 3023 2750 50  0000 L CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 3050 2650 50  0001 C CNN
+F 3 " ~" H 3050 2650 50  0001 C CNN
+	1    3050 2650
+	0    1    1    0   
+$EndComp
+Connection ~ 3550 2450
+$Comp
+L Connector:TestPoint TP1
+U 1 1 63E92D7F
+P 3050 2350
+F 0 "TP1" H 3108 2468 50  0000 L CNN
+F 1 "TestPoint" H 3108 2377 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 3250 2350 50  0001 C CNN
+F 3 "~" H 3250 2350 50  0001 C CNN
+	1    3050 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 63E98776
+P 4500 3150
+F 0 "#PWR03" H 4500 2900 50  0001 C CNN
+F 1 "GND" H 4505 2977 50  0000 C CNN
+F 2 "" H 4500 3150 50  0001 C CNN
+F 3 "" H 4500 3150 50  0001 C CNN
+	1    4500 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 63E98FEC
+P 3550 2800
+F 0 "#PWR02" H 3550 2550 50  0001 C CNN
+F 1 "GND" H 3555 2627 50  0000 C CNN
+F 2 "" H 3550 2800 50  0001 C CNN
+F 3 "" H 3550 2800 50  0001 C CNN
+	1    3550 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 63E9947E
+P 2850 2800
+F 0 "#PWR01" H 2850 2550 50  0001 C CNN
+F 1 "GND" H 2855 2627 50  0000 C CNN
+F 2 "" H 2850 2800 50  0001 C CNN
+F 3 "" H 2850 2800 50  0001 C CNN
+	1    2850 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 2650 2850 2800
+Wire Wire Line
+	3550 2700 3550 2800
+Wire Wire Line
+	4500 3150 4500 3050
+Connection ~ 4500 3050
+Connection ~ 4800 1850
+$Comp
+L Connector:TestPoint TP3
+U 1 1 63E9C658
+P 4800 3050
+F 0 "TP3" V 4754 3238 50  0000 L CNN
+F 1 "GND" V 4845 3238 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 5000 3050 50  0001 C CNN
+F 3 "~" H 5000 3050 50  0001 C CNN
+	1    4800 3050
+	0    1    1    0   
+$EndComp
+Connection ~ 4800 3050
+Wire Wire Line
+	3050 2450 3550 2450
+Wire Wire Line
+	3050 2350 3050 2450
+Connection ~ 3050 2450
+$Comp
+L Connector:TestPoint TP2
+U 1 1 63E9BDBC
+P 4800 1850
+F 0 "TP2" V 4754 2038 50  0000 L CNN
+F 1 "Vout" V 4845 2038 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 5000 1850 50  0001 C CNN
+F 3 "~" H 5000 1850 50  0001 C CNN
+	1    4800 1850
+	0    1    1    0   
+$EndComp
+$EndSCHEMATC
